@@ -15,7 +15,8 @@ To create a command all you have to do is make a class and extend it off of the 
 ```
 public class TestCommand extends ICommand { 
 
-}```
+}
+```
 
 The ICommand class has 4 basic methods that are required to make a command!
       - run() - This is where your command will be ran.
