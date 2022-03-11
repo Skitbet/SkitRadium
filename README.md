@@ -7,7 +7,9 @@ SkitRadium is a Discord JDA slash command library. This API is very simple and s
 The installation for SkitRadium is very simple and user friendly.
 
 To begin using the SkitRadium API all you have to do is add make a new instance of RadiumApi and put your bot as a argument
-```radiumApi = new RadiumApi(bot instance);```
+```
+radiumApi = new RadiumApi(bot instance);
+```
 
 ## Commands
 
