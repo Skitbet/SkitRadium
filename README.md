@@ -15,8 +15,28 @@ radiumApi = new RadiumApi(bot instance);
 
 To create a command all you have to do is make a class and extend it off of the ICommand class.
 ```
-public class TestCommand extends ICommand { 
+public class ExampleCommand extends ICommand {
+    @Override
+    public void run(SlashCommandEvent event) {
+        event.reply("Option = " + event.getOption("exampleoption").getAsString()).queue();
+    }
 
+    @Override
+    public String getName() {
+        return "example";
+    }
+
+    @Override
+    public String getDescription() {
+        return "This is a example command!";
+    }
+
+    @Override
+    public List<OptionData> getOptions() {
+        List<OptionData> options = new ArrayList<>();
+        options.add(new OptionData(OptionType.STRING, "exampleoption", "Example Description", true));
+        return options;
+    }
 }
 ```
 
