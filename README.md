@@ -42,6 +42,14 @@ public class ExampleCommand extends ICommand {
 }
 ```
 
+To register the commad all you have to do is run the addCommand method in your main class
+```
+radiumApi.addCommand(new ExampleCommand());
+
+radiumApi.registerCommands();
+```
+
+
 The ICommand class has 4 basic methods that are required to make a command!
       - run() - This is where your command will be ran.
       - getName() - This is the name of you command.
@@ -84,6 +92,11 @@ To create a menu all you have to do is make a class and extend it off of the IMe
         return options;
     }
 }
+```
+
+To register a menu you have to run below in the main class of your bot
+```
+radiumApi.addMenu(new ExampleMenu());
 ```
 
 The IMenu class has 4 basic methods that are required to make a command!
