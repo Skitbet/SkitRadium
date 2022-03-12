@@ -58,7 +58,7 @@ radiumApi.registerCommands();
 
 
 
-# Selection Menus
+## Selection Menus
 To create a menu all you have to do is create a class and extend it off of the IMenu class.
 The IMenu class has 4 basic methods that are required to make a command!
 ```
