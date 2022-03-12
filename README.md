@@ -52,7 +52,7 @@ radiumApi.registerCommands();
 
 The ICommand class has 4 basic methods that are required to make a command!
       - run() - This is where your command will be ran.
-      - getName() - This is the name of you command.
+      - getName() - This is the name of your command.
       - getDescription() - This is the description of your command.
       - getOptions() - This is where your options for the command is. Please read the JDA documents about OptionData for more info.
       
