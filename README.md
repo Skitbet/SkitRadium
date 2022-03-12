@@ -8,7 +8,7 @@ The installation for SkitRadium is very simple and user-friendly.
 
 To install you can either download the source and compile it or you can download the latest release and import it using Maven or Gradle!
 
-To begin using the SkitRadium API all you have to do is add make a new instance of RadiumApi and put your bot as an argument
+To begin using the SkitRadium API all you have to do is make a new instance of RadiumApi and cast your bot instance into it!
 ```
 radiumApi = new RadiumApi(bot instance);
 ```
