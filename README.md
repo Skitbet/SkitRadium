@@ -51,10 +51,10 @@ radiumApi.registerCommands();
 
 
 The ICommand class has 4 basic methods that are required to make a command!
-      - run() - This is where your command will be ran.
-      - getName() - This is the name of your command.
-      - getDescription() - This is the description of your command.
-      - getOptions() - This is where your options for the command is. Please read the JDA documents about OptionData for more info.
+      1. run() - This is where your command will be ran.
+      2. getName() - This is the name of your command.
+      3. getDescription() - This is the description of your command.
+      4. getOptions() - This is where your options for the command is. Please read the JDA documents about OptionData for more info.
       
 # Selection Menus
 To create a menu all you have to do is create a class and extend it off of the IMenu class.
@@ -100,8 +100,8 @@ radiumApi.addMenu(new ExampleMenu());
 ```
 
 The IMenu class has 4 basic methods that are required to make a command!
-      - run() - This is where your menu will be ran.
-      - getName() - This is the name of your menu.
-      - minSelectedRequired() - This is the min required amount of selected options.
-      - maxSelectedRequired() - This is the max required amount of selected options.
-      - getOptions() - This is where your options for the menu is. Please read the JDA documents about SelectionMenu for more info.
+      1. run() - This is where your menu will be ran.
+      2. getName() - This is the name of your menu.
+      3. minSelectedRequired() - This is the min required amount of selected options.
+      4. maxSelectedRequired() - This is the max required amount of selected options.
+      5. getOptions() - This is where your options for the menu is. Please read the JDA documents about SelectionMenu for more info.
