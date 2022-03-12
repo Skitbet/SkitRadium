@@ -1,6 +1,6 @@
 # SkitRadium
 
-SkitRadium is a Discord JDA slash command and Selection Menu API. This API is very simple and small and i plan to add more things to improve development for JDA developers. 
+SkitRadium is a Discord JDA slash command and Selection Menu API. This API is very simple and small and I plan to add more things to improve development for JDA developers. 
 
 ## Installation
 
