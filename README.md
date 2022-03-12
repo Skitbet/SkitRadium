@@ -87,8 +87,8 @@ To create a menu all you have to do is create a class and extend it off of the I
     @Override
     public HashMap<String, String> getOptions() {
         HashMap<String, String> options = new HashMap<>();
-        options.put("Example 1", "exampleone");
-        options.put("Example 2", "exampletwo");
+        options.put("Example 1", "exampleone"); // DisplayName, ID
+        options.put("Example 2", "exampletwo"); // DisplayName, ID
 
         return options;
     }
