@@ -1,4 +1,4 @@
-# SkitRadium
+# SkitRadium - BROKEN AND NOT BEING UPDATED
 
 SkitRadium is a Discord JDA slash command and Selection Menu API while keeping the code as JDA vanilla as possible. This API is simple and small, I plan to add more things to improve development for JDA developers. 
 
